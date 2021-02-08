@@ -1,0 +1,227 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css?family=Abel|Aguafina+Script|Artifika|Athiti|Condiment|Dosis|Droid+Serif|Farsan|Gurajada|Josefin+Sans|Lato|Lora|Merriweather|Noto+Serif|Open+Sans+Condensed:300|Playfair+Display|Rasa|Sahitya|Share+Tech|Text+Me+One|Titillium+Web');
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body{
+  padding: 0;
+  margin: 0;
+  height: 3000px;
+}
+
+#inicio{
+    /* background-image: url(https://www.drguillermorojas.com/wp-content/uploads/2016/04/banner-d.jpg); */
+    background:blue;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 100%;
+    padding-top: 140px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 200px;
+} 
+
+#container{
+	background: #00a563;
+	text-align: center;
+	height: 320px;
+	width: 900px;
+	
+}
+
+.carrer{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Rasa', cursive;
+}
+
+.profileData{
+    font-size: small;
+}
+.ip{
+    padding: 0.3rem;
+}
+
+.socialNetwork{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: left;
+    padding-top: 20px;
+}
+
+#redes{
+    height: 30px;
+    width: 30px;
+}
+
+.triangulo-equilatero-bottom-left {
+    width: 0;
+    height: 0;
+    border-right: 70px solid transparent;
+    border-top: 0px solid transparent;
+    border-left: 80px solid #00a563;
+    border-bottom: 350px solid #00a563;
+}
+
+.boton{
+    width:30px;
+    height:30px;
+    background-color:#1a75d5;
+    margin: 65px;
+    padding:10px;
+    border-radius: 60px;
+    font-size:11px;
+    line-height:32px;
+    /* text-transform: uppercase; */
+    float:left;
+  }
+  .boton:hover{
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter:alpha (opacity=50);
+  }
+  .boton a{
+    color:#fff;
+    text-decoration:none;
+    padding:5px 5px 5px 0;
+  }
+
+/* 	Product details  */
+.profile-details {
+	text-align: left;
+	padding: 30px;
+	height: 100%;
+	float: left;
+ }
+
+/* 	Product Name */
+#container .profile-details h1{
+	font-family: 'Roboto', serif;
+	font-size: 34px;
+	color: #ffffff;
+	margin: 0;
+	
+}
+
+/* The most important information about of the profile */
+#container .profile-details > p {
+	font-family: 'Farsan', cursive;
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+	
+}
+
+/* profile image  */
+.profile-image {
+  background-image: url(https://s3.envato.com/files/228902365/syda_0225997.jpg);
+	overflow: hidden;
+	height: 100%;
+	float: right;
+	width: 50%;
+}
+
+#container img {width: 100%;height: 100%;}
+
+
+
+
+/* card  */
+.blog-card {
+  box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.6);
+  background: white;
+  line-height: 1.4;
+  font-family: sans-serif;
+  border-radius: 2px;
+  width: 900px;
+  margin-left: 363px;
+}
+
+.description {
+  padding: 1rem;
+  z-index: 1;
+ text-align: center;
+}
+
+.buttons-cv{
+  padding: 1rem;
+  z-index: 1;
+  text-align: center;
+}
+
+#button-cv{
+  background-color:#00a563 ;
+  color: #fff;
+  height: 40px;
+  width: 150px;
+  border: none;
+  margin-left: 10px;
+}
+
+.skills{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+.title-skills{
+  color: darkslategray;
+  font-family: 'itillium+Web', cursive;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+
+.title-skills img{
+  margin-left: 80px;
+  margin-top: 10px;
+  box-shadow: 0 4px 7px -1px rgba(0, 0, 0, 0.6);
+  background: white;
+  padding: 0.25rem;
+
+}
+
+.education-cards{
+  height: 100px;
+  /* background-color: blue; */
+  display: flex;
+}
+#card{
+  display: grid;
+  grid-template-columns: repeat(0, 1fr);
+  justify-content: left;
+  width: 300px;
+  height: 230px;
+  box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.6);
+    
+}
+
+.line{
+  border-right: 0px solid transparent;
+  border-top: 0px solid transparent;
+  border-left: 8px solid #0f6fd2;
+  border-bottom: 0px solid #0f6fd2;
+  margin-left: 360px;
+}
+
+#text{
+  margin-left: 10px;
+  margin-top:10px;
+}
+
+.line2{
+  border-right: 0px solid transparent;
+  border-top: 0px solid transparent;
+  border-left: 8px solid #0f6fd2;
+  border-bottom: 0px solid #0f6fd2;
+  margin-left: 280px;
+  
+}
+
+#right{
+  margin-top: 50px;
+}
+
+#toc{
+  padding: 0;
+  margin: 0;
+}
