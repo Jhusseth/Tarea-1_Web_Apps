@@ -134,13 +134,14 @@ body{
   font-family: sans-serif;
   border-radius: 2px;
   width: 1200px;
-  margin-left: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 .description {
   padding: 1rem;
   z-index: 1;
- text-align: center;
+  text-align: center;
 }
 
 .buttons-cv{
@@ -194,12 +195,14 @@ body{
 .the-cards{
   height: 100px;
   display: flex;
+  justify-content: center;
+  margin-top: 15px;
 }
 #card{
   display: grid;
   grid-template-columns: repeat(0, 1fr);
   justify-content: left;
-  width: 390px;
+  width: 550px;
   height: 180px;
   box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.6);
     
@@ -210,7 +213,6 @@ body{
   border-top: 0px solid transparent;
   border-left: 8px solid #0f6fd2;
   border-bottom: 0px solid #0f6fd2;
-  /* margin-left: 26px; */
 }
 
 #text{
@@ -223,7 +225,7 @@ body{
   border-top: 0px solid transparent;
   border-left: 8px solid #0f6fd2;
   border-bottom: 0px solid #0f6fd2;
-  margin-left: 400px;
+  margin-left: 84px;
   
 }
 
@@ -242,7 +244,7 @@ body{
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   width: 1200px;
-  height: 300px;
+  height: 270px;
   box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.6);
   background-color: #00a563;
 }
@@ -250,4 +252,54 @@ body{
 .middle-seccion{
   justify-content: center;
   display: flex;
+}
+
+#profesional-skills{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#personal-skills{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#software-skills{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#title-all-skill{
+  color: #fff;
+  text-align: center;
+}
+
+#sk-progress{
+  padding-right: 10px;
+  font-size: 0.9rem;
+}
+
+#lines-progress{
+  display: grid;
+  grid-template-columns: repeat(0, 1fr);
+  padding-top: 8px;
+  text-align: left;
+}
+
+#pgb{
+  width: 350px;
+  height: 7px;
+  border: 0;
+  background: white;
+}
+
+progress::-webkit-progress-bar{
+  background-color: #00a5638f;
+}
+
+progress::-webkit-progress-value{
+  background-color: white;
 }
