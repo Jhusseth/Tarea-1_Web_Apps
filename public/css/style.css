@@ -134,7 +134,7 @@ body{
   font-family: sans-serif;
   border-radius: 2px;
   width: 1200px;
-  margin-left: 206px;
+  margin-left: 15px;
 }
 
 .description {
@@ -158,12 +158,23 @@ body{
   margin-left: 10px;
 }
 
-.skills{
+.education{
   display: flex;
   margin-top: 50px;
   justify-content: center;
 }
-.title-skills{
+
+.skills{
+  display: flex;
+  margin-top: 150px;
+  justify-content: center;
+}
+.experience{
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+}
+.title-seccion{
   color: darkslategray;
   font-family: 'itillium+Web', cursive;
   display:grid;
@@ -171,7 +182,7 @@ body{
   justify-content: center;
 }
 
-.title-skills img{
+.title-seccion img{
   margin-left: 80px;
   margin-top: 10px;
   box-shadow: 0 4px 7px -1px rgba(0, 0, 0, 0.6);
@@ -180,9 +191,8 @@ body{
 
 }
 
-.education-cards{
+.the-cards{
   height: 100px;
-  /* background-color: blue; */
   display: flex;
 }
 #card{
@@ -200,7 +210,7 @@ body{
   border-top: 0px solid transparent;
   border-left: 8px solid #0f6fd2;
   border-bottom: 0px solid #0f6fd2;
-  margin-left: 206px;
+  /* margin-left: 26px; */
 }
 
 #text{
@@ -224,4 +234,20 @@ body{
 #toc{
   padding: 0;
   margin: 0;
+}
+
+.panel-skills{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  width: 1200px;
+  height: 300px;
+  box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.6);
+  background-color: #00a563;
+}
+
+.middle-seccion{
+  justify-content: center;
+  display: flex;
 }
