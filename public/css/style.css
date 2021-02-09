@@ -15,7 +15,7 @@ body{
 }
 
 #inicio{
-    background-image: url(https://www.thecricketclubofindia.com/images/banner_library.jpg);
+    background-image: url(https://images.squarespace-cdn.com/content/v1/55b799b6e4b0abd99ecc36d9/1439847491222-G7NI5FTHPNWW2OD2H38T/ke17ZwdGBToddI8pDm48kL41QpzrlVe6KRwdd9SmRxt7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0igEpLNRaLugw80Fd36fRYM68Z2ldaCV1Z8DGEbwpBJr2UuvBBH5-21mEeJlumXoLA/banner3-01.png?format=2500w);
     height: 180px;
     padding-top: 140px;
     justify-content: center;
@@ -439,11 +439,12 @@ progress::-webkit-progress-value{
 }
 
 .modal-contenido{
-  background-color:aqua;
+  background-color:#00a563;
   width:300px;
   padding: 10px 20px;
   margin: 20% auto;
   position: relative;
+  text-align: center;
 }
 .modal{
   background-color: rgba(0,0,0,.8);
@@ -454,7 +455,7 @@ progress::-webkit-progress-value{
   left:0;
   opacity:0;
   pointer-events:none;
-  transition: all 1s;
+  transition: all 0s;
 }
 #miModal:target{
   opacity:1;
