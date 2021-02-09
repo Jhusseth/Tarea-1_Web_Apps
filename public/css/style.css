@@ -461,3 +461,8 @@ progress::-webkit-progress-value{
   opacity:1;
   pointer-events:auto;
 }
+
+#miLinkModal{
+  text-decoration: none;
+  color: white;
+}
