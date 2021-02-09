@@ -78,9 +78,8 @@ body{
     float:left;
   }
   .boton:hover{
-    opacity: 0.50;
-    -moz-opacity: .50;
-    filter:alpha (opacity=50);
+    background-color: #063f58d5;
+    transition: all 2s ease;
   }
   .boton a{
     color:#fff;
@@ -165,6 +164,12 @@ body{
   border: none;
   margin-left: 10px;
 }
+
+#button-cv:hover{
+  background: #1a75d5;
+  transition: all 2s ease;
+}
+
 
 .education{
   display: flex;
